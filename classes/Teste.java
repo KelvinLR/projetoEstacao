@@ -106,6 +106,8 @@ public class Teste {
         tremTeste.mostraNumElementos();
         tremTeste.mostraQtdLocomotivas();
         tremTeste.mostraQtdVagoes();
+        tremTeste.mostraLocomotivas();
+        tremTeste.mostraVagoes();
         System.out.println("===========================");
     }
 }

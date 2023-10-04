@@ -121,6 +121,14 @@ public class Trem {
     public void mostraQtdVagoes(){
         System.out.println("Número de vagões do trem " + this.prefixo + ": " + this.vagoes.size());
     }
+
+    public void mostraLocomotivas(){
+        System.out.println("Detalhes das locomotivas do trem " + this.prefixo + ": \n" + this.locomotivas);
+    }
+    
+    public void mostraVagoes(){
+        System.out.println("Detalhes dos vagões do trem " + this.prefixo + ": \n" + this.vagoes);
+    }
     
     public void definirEstacoes(Estacao estacaoOrigem, Estacao estacaoDestino){
         if(estacaoOrigem.equals(estacaoDestino) == true){
