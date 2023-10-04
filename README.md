@@ -7,6 +7,3 @@ Kelvin Rodrigues e José Francimi
 # Objetivo
 Modelar um sistema de estação ferroviária, com as classes, atributos e métodos necessários para a compreensão e aprendizado sobre uso de construtores em Java.
 
-# Etapas
-### 1 - Modelagem do diagrama de classes em UML
-### 2 - Representação e teste das classes em Java
