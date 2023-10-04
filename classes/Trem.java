@@ -89,7 +89,7 @@ public class Trem {
     }
 
     public void adicionarVagao(Vagao vagao){
-        if(qtdElementos <= 150){
+        if(qtdElementos < 150){
             vagoes.add(vagao);
             System.out.println("Vagão " + vagao.getNumSerie() + " adicionado");
             qtdElementos++;
@@ -100,7 +100,7 @@ public class Trem {
     }
     
     public void adicionarLocomotiva(Locomotiva locomotiva){
-        if(qtdElementos <= 150){
+        if(qtdElementos < 150){
             locomotivas.add(locomotiva);
             System.out.println("Locomotiva " + locomotiva.getNumSerie() + " adicionada");
             qtdElementos++;
