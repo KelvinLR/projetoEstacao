@@ -131,7 +131,7 @@ public class Trem {
     }
     
     public void definirEstacoes(Estacao estacaoOrigem, Estacao estacaoDestino){
-        if(estacaoOrigem.equals(estacaoDestino) == true){
+        if(estacaoOrigem.getSigla().equals(estacaoDestino.getSigla()) == true){
             System.out.println("Erro: as estações de origem e destino são as mesmas");
         } else {
             this.estacaoOrigem = estacaoOrigem;
