@@ -29,5 +29,12 @@ public class Locomotiva {
         + "\nComprimento: " + this.comprimento;
         return str;
     }
+
+    Locomotiva() {}
+    Locomotiva(String numSerie, double capacidadeTracao, double comprimento){
+        this.numSerie = numSerie;
+        this.capacidadeTracao = capacidadeTracao;
+        this.comprimento = comprimento;
+    }
 }
 

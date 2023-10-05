@@ -45,4 +45,13 @@ public class Vagao {
         "\nComprimento dos Engates: " + this.comprimentoEngates;
         return str;      
     }
+
+    Vagao () {}
+    Vagao (String numSerie, String tipo, double capacidadeCarga, double comprimentoEngates, double comprimentoTesteiras) {
+        this.numSerie = numSerie;
+        this.tipo = tipo;
+        this.capacidadeCarga = capacidadeCarga;
+        this.comprimentoEngates = comprimentoEngates;
+        this.comprimentoTesteiras = comprimentoTesteiras;
+    }
 }
