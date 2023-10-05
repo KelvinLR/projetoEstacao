@@ -40,4 +40,11 @@ public class Estacao {
     public void mostraLinhas(){
         System.out.println("Detalhes das linhas da estação " + this.sigla + ": " + this.linhas);
     }
+
+    Estacao () {}
+    Estacao(String sigla, String descricao, ArrayList<LinhaFerroviaria> linhas) {
+        this.sigla = sigla;
+        this.descricao = descricao;
+        this.linhas = linhas;
+    }
 }
